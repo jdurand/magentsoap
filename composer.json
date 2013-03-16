@@ -1,21 +1,20 @@
 {
     "name": "jdurand/magentsoap",
     "type": "library",
-    "description": "Magento SOAP Interface",
+    "description": "A simple wrapper for the Magento SOAP API v2",
     "keywords": ["magento","soap"],
     "license": "LGPL",
-    "authors": [
-        {
-            "name": "Jim Durand",
-            "email": "hello-world@jdurand.com"
-        }
-    ],
+    "authors": [{
+        "name": "Jim Durand",
+        "email": "hello-world@jdurand.com",
+        "homepage": "https://github.com/jdurand"
+    }],
     "require": {
-        "php": ">=5.3.1"
+        "php": ">=5.3.2"
     },
     "autoload": {
         "psr-0": {
-            "MagentSOAP": "classes/"
+            "MagentSOAP": "src/"
         }
     }
 }
