@@ -1,0 +1,16 @@
+{
+    "name": "jdurand/magentsoap",
+    "type": "library",
+    "description": "Magento SOAP Interface",
+    "keywords": ["magento","soap"],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Jim Durand",
+            "email": "hello-world@jdurand.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1"
+    }
+}
