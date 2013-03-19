@@ -3,7 +3,7 @@
 
 MagentSOAP is a simple wrapper for the Magento SOAP API v2
 
-### Installation (using composer)
+### Installation (using [composer](https://github.com/composer/composer))
 
 Add this infomation to your composer.json :
 
