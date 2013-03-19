@@ -3,7 +3,7 @@
 
 MagentSOAP is a simple wrapper for the Magento SOAP API v2
 
-Installation (using composer) :
+### Installation (using composer)
 
 Add this infomation to your composer.json :
 
@@ -32,9 +32,10 @@ Update composer :
 
     ./composer.phar update
 
+
 I'm pretty sure this isn't the best way to do it. Feel free to educate me.
 
-Usage :
+### Usage
 
     <?php
     
