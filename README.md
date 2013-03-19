@@ -3,6 +3,37 @@
 
 MagentSOAP is a simple wrapper for the Magento SOAP API v2
 
+Installation (using composer) :
+
+Add this infomation to your composer.json :
+
+    "require": {
+        "jdurand/magentsoap": "dev-master"
+    },
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "jdurand/magentsoap",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/jdurand/magentsoap.git",
+                "type": "git",
+                "reference": "remotes/origin/master"
+            }
+        }
+    }],
+    "autoload": {
+        "psr-0": {
+            "MagentSOAP": "./vendor/jdurand/magentsoap/src/"
+        }
+    }
+
+Update composer :
+
+    ./composer.phar update
+
+I'm pretty sure this isn't the best way to do it. Feel free to educate me.
+
 Usage :
 
     <?php
